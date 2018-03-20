@@ -10,7 +10,7 @@ log-bin=~/.mysql-binlogs/binlog
 CREATE USER 'spreader' IDENTIFIED BY 'spreader'; # User a proper password
 GRANT REPLICATION SLAVE ON *.* TO 'spreader';
 ```
-3.- Put your AWS credentials in a file located in `~/.aws/credentials`. The contents of the file should be:
+3. Put your AWS credentials in a file located in `~/.aws/credentials`. The contents of the file should be:
 ```sh
 [default]
 aws_access_key_id = <Your key>

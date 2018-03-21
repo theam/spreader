@@ -3,7 +3,7 @@ package main
 import (
 	"log"
 	"github.com/siddontang/go-mysql/canal"
-	"github.com/alvaroloes/kinesis/rtc"
+	"github.com/theam/spreader/rtc"
 )
 
 func main() {

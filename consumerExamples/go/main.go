@@ -5,7 +5,7 @@ import (
 	"log"
 	"github.com/aws/aws-sdk-go/service/kinesis"
 	"fmt"
-	"github.com/alvaroloes/spreader/rtc"
+	"github.com/theam/spreader/rtc"
 	"time"
 )
 

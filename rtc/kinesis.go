@@ -8,13 +8,14 @@ import (
 	"github.com/aws/aws-sdk-go/service/kinesis"
 )
 
-const StreamName = "pizza-tube";
+const StreamName = "spreader-test"
 
 func NewKinesis() *kinesis.Kinesis{
 	sess, err := session.NewSession(&aws.Config{
 		Region: aws.String("eu-west-1"),
-		Credentials: credentials.NewStaticCredentials("AKIAJEHNORBQLMFLPSTQ", "M7jktUUTlbrAxcShtMjGQLGvJEBi+IlSCbx1GtQp", ""),
+		Credentials: credentials.NewSharedCredentials("", ""),
 	})
+
 	if err != nil {
 		log.Fatal(err)
 	}

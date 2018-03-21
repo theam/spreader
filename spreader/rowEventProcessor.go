@@ -3,7 +3,7 @@ package main
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/alvaroloes/kinesis/rtc"
+	"github.com/theam/spreader/rtc"
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/service/kinesis"
 	"github.com/siddontang/go-mysql/canal"

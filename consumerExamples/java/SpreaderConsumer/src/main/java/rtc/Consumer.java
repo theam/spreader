@@ -9,7 +9,7 @@ import com.amazonaws.services.kinesis.model.Shard;
 import java.util.List;
 
 public class Consumer {
-    public static final String STREAM_NAME = "pizza-tube";
+    public static final String STREAM_NAME = "spreader-test";
 
     public static void main(String[] args) {
 

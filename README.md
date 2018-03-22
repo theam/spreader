@@ -18,7 +18,7 @@ The data schema of the events is the following:
 * `"OldValues"`: Contains the old row values. Only when the event type is `{update, delete}`
 * `"NewValues"`: Contains the new row values. Only when the event type is `{update, insert}`
 
-The repository contains the `Spreader` application, and two consumer examples: one in Go and another in Java. 
+The repository contains the `Spreader` application, and **two consumer examples: one in Go and another in Java**. 
 As you can see, everything is pretty basic, but it will grow little by little.
 
 The goal is to be able to declare `filters`, `conditions`, and `transformers`. This way you can choose which events to publish, set some
